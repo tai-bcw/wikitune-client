@@ -1,0 +1,12 @@
+<svg width="121.63mm" height="18.566mm" version="1.1" viewBox="0 0 121.63 18.566" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <pattern id="pattern107" x="-35" patternTransform="matrix(.051 0 0 .04709 0 -3.8506)" preserveAspectRatio="xMidYMid" xlink:href="#shading5"/>
+  <pattern id="shading5" width="349.7577" height="27.6099" fill="#377ab5" patternTransform="scale(.2)" patternUnits="userSpaceOnUse" preserveAspectRatio="xMidYMid">
+   <path d="m349.53 0h0.232v27.61h-0.232zm-18.396 0h1.0542v27.61h-1.0542zm-18.396 0h1.8765v27.61h-1.8765zm-18.396 0h2.6988v27.61h-2.6988zm-18.396 0h3.5211v27.61h-3.5211zm-18.396 0h4.3434v27.61h-4.3434zm-18.396 0h5.1658v27.61h-5.1658zm-18.396 0h5.9881v27.61h-5.9881zm-18.396 0h6.8104v27.61h-6.8104zm-18.396 0h7.6327v27.61h-7.6327zm-18.396 0h8.455v27.61h-8.455zm-18.396 0h9.2773v27.61h-9.2773zm-18.396 0h10.1v27.61h-10.1zm-18.396 0h10.922v27.61h-10.922zm-18.396 0h11.744v27.61h-11.744zm-18.396 0h12.566v27.61h-12.566zm-18.396 0h13.389v27.61h-13.389zm-18.396 0h14.211v27.61h-14.211zm-18.396 0h15.033v27.61h-15.033zm-18.396 0h15.856v27.61h-15.856z" stop-color="#000000" stroke-linecap="square" stroke-width=".4872" style="paint-order:markers fill stroke"/>
+  </pattern>
+ </defs>
+ <g transform="translate(-34.708 -50.223)" fill-rule="evenodd">
+  <text x="58.171532" y="68.404457" fill="#7a7a7a" fill-opacity=".9451" font-family="Arial" font-size="25.4px" letter-spacing=".76994px" stroke-width=".79375" style="line-height:0" xml:space="preserve"><tspan x="58.171532" y="68.404457" fill="#ffffff" fill-opacity=".9451" font-family="'Times New Roman'" stroke-width=".79375">Wikitune</tspan></text>
+  <rect transform="scale(-1)" x="-55.778" y="-68.404" width="21.07" height="18.182" fill="url(#pattern107)" stroke-width="1.365"/>
+ </g>
+</svg>

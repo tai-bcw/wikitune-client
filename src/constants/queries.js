@@ -1,0 +1,1 @@
+export const EST_SECONDS_PER_QUERY = 10; //to-do: Make this mutable
