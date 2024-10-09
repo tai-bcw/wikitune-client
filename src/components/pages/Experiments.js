@@ -84,6 +84,12 @@ const WIKI_OPTIONS = [
   {label: "Wikipedia", slug: 'wikipedia', enabled: true, img: wikipediaLogo},
   {label: "Fandom", slug: 'fandom', enabled: false, img: fandomLogo},
   {label: "Wiki.js (Custom)", slug: 'wiki_js', enabled: false, img: wikijsLogo},
+];
+
+const INFERENCE_OPTIONS = [
+  {label: "Question Answering", slug: 'txt_ques_ans', enabled: true},
+  {label: "Text Classification", slug: 'txt_classification', enabled: false},
+  {label: "Text Generation", slug: 'txt_generation', enabled: false}
 ]
 
 const selectIconStyles = {
@@ -110,6 +116,30 @@ function WikiSelect() {
                 </Box>
                 <img src={d.img} style={selectIconStyles}/>        
 
+              </Box>        
+            </MenuItem>
+          )
+        })
+      }
+    </Select>
+  )
+}
+
+function InferenceSelect() {
+  return (
+    <Select
+      defaultValue={'txt_ques_ans'}
+    >
+      {
+        INFERENCE_OPTIONS.map((d)=>{
+          return (
+            <MenuItem value={d.slug}  disabled={!d.enabled}>
+              <Box style={{verticalAlign: 'middle'}}> 
+              <Box
+                  style={{display:'inline-block'}}
+                >
+                  {d.label} 
+                </Box>
               </Box>        
             </MenuItem>
           )
@@ -152,7 +182,8 @@ function StartExperiment({
               </Typography>
               
               <WikiSelect/>    
-              
+              <InferenceSelect/>
+
               <TextField 
                 label="Subject"
                 variant="outlined"

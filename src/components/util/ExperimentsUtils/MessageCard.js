@@ -1,22 +1,19 @@
-import { Box, Card, Stack, CardContent, Grid2 as Grid } from "@mui/material";
+import { Box, Card, Stack, CardContent, Grid2 as Grid, TextField } from "@mui/material";
 
 function MessageChip({role, content}) {
   return (
     <Box style={{marginTop: "15px"}}>
     <Stack spacing={2}>
-        <div style={{fontWeight:"700", fontSize: "20px"}}>
-          Role
-        </div>
-        <Box>
-          {role}
-        </Box>
+        <TextField
+          label={"Role"}
+          value={role}
+        ></TextField>
         
-        <div style={{fontWeight:"700", fontSize: "20px"}}>
-          Content
-        </div>
-        <Box>
-          {content}
-        </Box>
+        <TextField
+          label={"Content"}
+          multiline={true}
+          value={content}
+        ></TextField>
     </Stack>
     </Box>
   )
